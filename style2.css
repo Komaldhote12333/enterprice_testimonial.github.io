@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+button a{
+    box-shadow: 0 0.5em 0.5em rgba(4, 234, 255, 0.4);
+}
+
+header{
+    position: relative;
+    
+}
+.fa{
+   padding: 2px;
+
+}
+/* header-start */
+nav{
+    height:13vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 1rem;
+  
+  
+}
+.checkbtn{
+    font-size: 30px;
+    color:#000000;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.logoh{
+    max-width: 7vh;
+}
+.logoh img{
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    
+}
+ul li{
+    display: inline-block;
+    
+}
+ul li a{
+    text-decoration: none;
+    color: #69697b;
+    padding: 0px 17px;
+    font-size: 18px;
+}
+ul li a:hover{
+    color: #0C9DB3;
+}
+#regis_btn{
+    border: none;
+    padding: 12px 23px;
+    border-radius: 6px;
+    font-size: 18px;
+    background-color: #0c9db3; 
+    color: #fff;
+}
+#regis_btn:hover{
+    cursor: pointer;
+    color:#009bb5;
+    background-color: #fff;
+    border: 1px solid #009bb5;
+}
+/* header-end */
+
+.toogle1,.toogle2{
+    display: none;
+}
+
+@media screen and (max-width: 991px){
+    .toogle1{
+        display: none;
+    }
+    .toogle2{
+        display: block;
+      }
+    #regis_btn{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+
+  
+    .toglee .menu{
+        display: block;
+        position: absolute;
+        top: 13vh;
+        background-color: #0b0b2c;
+        width: 100%;
+        left: 0;
+        height: fit-content;
+        bottom: 0;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+        text-align: center;
+        transition: 0.9s linear;
+        padding: 2rem;
+  
+  
+    }
+    .toglee .toogle2{
+      display: none;
+    }
+
+    .toglee .toogle1{
+        display: block;
+      }
+}

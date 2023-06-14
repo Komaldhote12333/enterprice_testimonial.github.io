@@ -1,0 +1,355 @@
+body,
+html {
+    overflow-x: hidden;
+    font-family: 'Jost', sans-serif;
+
+}
+.footerstart{
+margin-bottom: 56rem;
+font-size: 18px;
+color: #69697b;
+}
+
+a{
+    text-decoration: none;
+}
+
+.footerupper {
+    display: grid;
+    grid-template-columns: 1fr 1.4fr 1.4fr;
+    padding: 0.50rem;
+    font-family: 'Jost', sans-serif;
+
+
+}
+
+.footerfirstpart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.90rem;
+ 
+
+
+}
+
+.colorfontaw{
+   background-color: rgba(31, 24, 24, 0);
+    border: 1px solid black;
+    padding: 0.50rem;
+    border-radius: 100%;
+
+}
+
+.colorfontaw:hover{
+    color: rgb(25, 0, 255);
+     border: 1px solid black;
+     padding: 0.50rem;
+     border-radius: 100%;
+     
+ }
+
+
+.bisjintuslogo {
+    width: 8rem;
+}
+
+.bisjintuslogo img {
+    width: 100%;
+}
+
+.bisjintusocialicon {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0.4rem;
+
+}
+
+.bisjintusocialicon :nth-child(1) {
+    display: flex;
+    gap: 2rem;
+}
+
+
+.bisjintusocialicon :nth-child(2) {
+    display: flex;
+    gap: 2rem;
+}
+
+.footersecondpart {
+ 
+    padding: 0.90rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 6rem;
+    align-items: center;
+
+}
+
+.FOOTSECONANDTHIRS{
+    color: #0c9db3;
+}
+
+.footer-link-li{
+    color: #69697b;
+}
+
+.footer-link-li:hover{
+    color: #0c9db3;
+}
+
+.footersecondpart :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4px;
+
+}
+
+.footersecondpart-li {
+    list-style: none;
+}
+
+.footersecondpart :nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4px;
+
+}
+
+.footerthirdpart {
+    padding: 0.90rem;
+    align-items: center;
+ 
+    display: flex;
+    flex-direction: column;
+
+}
+
+.footerthirdpart :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 4px;
+
+
+}
+
+.dropdows{
+    display: flex;
+    justify-content: space-between;
+}
+
+.legalbtn {
+    margin: 1rem 0rem;
+    display: none;
+    border: none;
+    padding: 1rem;
+    background-color: transparent;
+    color: rgb(26 115 232);
+    font-size: large;
+    padding-right: 100%;
+}
+
+
+/*    lowerfooter    */
+
+
+.footerlower{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    padding: 1rem;
+}
+
+.footerlower :nth-child(1) {
+ 
+    padding: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 1rem;
+
+}
+
+.leftlowerfot1{
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0rem;
+    align-items: start;
+    justify-content: center;
+}
+.footerlower :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding: 0.34rem;
+    align-items: center;
+}
+
+.imageofstartup{
+    width:60%;
+}
+.imageofstartup img{
+    width: 100%;
+}
+.footerlower :nth-child(3){
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: start;
+    padding: 0.3rem;
+ 
+}
+.contacctcl{
+    color: blue;
+}
+.contactpart1 :nth-child(1){
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0rem;
+    align-items: start;
+    justify-content: center;
+    font-weight: bold;
+}
+
+
+.contactpart1 :nth-child(2){
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.contactpart1 :nth-child(3){
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0rem;
+    align-items: start;
+    justify-content: center;
+}
+
+.contactpart1 :nth-child(4){
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    gap: 0rem;
+    align-items: start;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 991px) {
+
+    .legalbtn {
+        display: block;
+        width: 20%;
+    }
+
+    .footerupper {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0fr 0fr 0fr;
+
+
+
+    }
+
+
+    .footersecondpart {
+        padding: 0.90rem;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        text-align: center;
+        display: none;
+
+
+    }
+
+    .footersecondpart :nth-child(1) {
+        align-items: start;
+        justify-content: center;
+
+    }
+
+    .footersecondpart :nth-child(2) {
+
+        align-items: start;
+        justify-content: center;
+
+
+    }
+
+    .footerlower{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+
+
+
+
+
+
+
+    .footerthirdpart {
+        display: none;
+    }
+
+
+    .footerthirdpartdispalybtn {
+        display: block;
+    }
+
+
+}
+
+
+
+@media screen and (max-width: 472px) {
+
+    .footersecondpart {
+     
+        padding: 0.90rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 6rem;
+        align-items: center;
+        display: none;
+
+    }
+
+    .footersecondpart :nth-child(1) {
+        align-items: start;
+        justify-content: center;
+
+    }
+
+    .footersecondpart :nth-child(2) {
+
+        align-items: start;
+        justify-content: center;
+
+
+    }
+
+    .footerthirdpart {
+        display: none;
+    }
+
+    .footerthirdpartdispalybtn {
+        display: block;
+    }
+
+
+}
